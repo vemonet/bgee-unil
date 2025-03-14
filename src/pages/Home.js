@@ -125,7 +125,7 @@ const Home = () => {
                 style={{ width: '100%', maxWidth: '790px' }}
               />
             </Bulma.C>
-            
+
           </Bulma.Columns>
         </Bulma.Hero.Body>
       </Bulma.Hero>
@@ -221,7 +221,7 @@ const Home = () => {
               </LinkExternal>
               <LinkExternal className='ext-as-int-link' to='https://elixir-europe.org/platforms/interoperability/rirs'>
                 <img src={imagePath(`/logo/ELIXIR-rir-logo.png`)} alt='ELIXIR Recommended Interoperability Resources Logo' width='89' height='70' />
-              </LinkExternal>  
+              </LinkExternal>
             </div>
             <div className='resource-links'>
               Bgee have been recognised as a&nbsp;
