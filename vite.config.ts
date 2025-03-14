@@ -4,4 +4,9 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   plugins: [reactRouter(), tsconfigPaths()],
+  assetsInclude: ["**/*.md"],
+  // esbuild: {
+  //   // jsx: 'react-jsx',
+  //   include: ['**/*.js', '**/*.jsx', '**/*.tsx'],
+  // },
 });
